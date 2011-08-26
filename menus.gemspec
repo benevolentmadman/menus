@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{menus}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{benevolentMadman}]
-  s.date = %q{2011-08-25}
+  s.date = %q{2011-08-26}
   s.description = %q{This gem allows for user-editable menus and menu items in the context of a CMS.}
   s.email = %q{alex@hockeybagstudio.com}
   s.extra_rdoc_files = [
@@ -17,8 +17,19 @@ Gem::Specification.new do |s|
     "README.rdoc"
   ]
   s.files = [
+    "Gemfile",
+    "Gemfile.lock",
+    "LICENSE.txt",
     "README.rdoc",
-    "VERSION"
+    "Rakefile",
+    "VERSION",
+    "lib/menus.rb",
+    "lib/menus/menu.rb",
+    "lib/menus/menu_item.rb",
+    "menus.gemspec",
+    "pkg/menus-0.1.0.gem",
+    "test/helper.rb",
+    "test/test_testgem.rb"
   ]
   s.homepage = %q{http://github.com/benevolentmadman/menus}
   s.licenses = [%q{MIT}]
